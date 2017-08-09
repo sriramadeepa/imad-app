@@ -9,20 +9,8 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
-app.get('/sri.html', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'sri.html'));
-});
-
-app.get('/sri1.html', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'sri1.html'));
-});
-
-app.get('/sri2.html', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'sri2.html'));
-});
-
-app.get('/ui/madi.png', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
+app.get('/ui/style.css', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
 
 app.get('/ui/madi.png', function (req, res) {
